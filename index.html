@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Grupo Valenzuela</title>
+    <!-- enlaces -->
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="icon" href="favicon.png">
+    <link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <!--Icon-Font-->
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <!-- meta-etiquietas -->
+    <meta name="description" content="Las mejores asesorias del Perú a tu disposición, resolveremos tu caso con Profesionalismo, Honestidad y Confianza.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script defer src="js/slider.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="contenedor">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.jpg" alt="Logo Grupo Valenzuela">
+                </a>
+            </div>
+            <input type="checkbox" id="menu_bar">
+            <label class="icon-menu" for="menu_bar"></label>
+            <nav class="menu_nav">
+                <a href="#">INICIO</a>
+                <a href="#servicio">SERVICIOS</a>
+                <a href="#contacto">CONTACTO</a>
+                <a href="login.html" target="_blank">INGRESAR</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="container-slider">
+            <a href="javascript: funcionEjecutar('anterior');" class="arrowPrev"><i class="fas fa-chevron-circle-left"></i></a>
+            <a href="javascript: funcionEjecutar('siguiente');" class="arrowNext"><i class="fas fa-chevron-circle-right"></i></a>
+            <ul class="listslider">
+                <li><a itlist="itList_0" href="#" class="item-select-slid"></a></li>
+                <li><a itlist="itList_1" href="#"></a></li>
+                <li><a itlist="itList_2" href="#"></a></li>
+            </ul>
+            <ul id="slider">
+                <li style="background-image: url('img/03.jpg'); z-index:0; opacity: 1;">
+                    <div class="content_slider">
+                        <div>
+                            <h2>Redacción de tesis de pregrado y posgrado</h2>
+                            <p><br></p>
+                            <a href="#servicio" class="btnSlider">Acceder</a>
+                        </div>
+                    </div>
+                </li>
+                <li style="background-image: url('img/02.jpg'); ">
+                    <div class="content_slider">
+                        <div>
+                            <h2>Redacción de artículos científicos</h2>
+                            <p>Escribe el texto que aparecerá</p>
+                            <a href="#servicio" class="btnSlider">Acceder</a>
+                        </div>
+                    </div>
+                </li>
+                <li style="background-image: url('img/05.jpg'); ">
+                    <div class="content_slider">
+                        <div>
+                            <h2>Corrección de estilo para tesis</h2>
+                            <p><br></p>
+                            <a href="#servicio" class="btnSlider">Acceder</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <div class="contenedor" id="servicio">
+            <h2 class="titulo">NUESTROS SERVICIOS</h2>
+        </div>
+        <section class="card">
+            <div class="card__perfil">
+                <div class="card__nombre">
+                    <h2>Redacción de tesis de pregrado y posgrado</h2>
+                    <p>Servicio 01</p>
+                </div>
+                <hr>
+                <div class="card__descripcion">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolores perferendis rem ipsam
+                        veniam reiciendis eveniet optio eum velit, dignissimos asperiores fugit molestias ipsum
+                        temporibus
+                        rerum hic iste nulla vitae?</p>
+                </div>
+                <hr>
+                <div class="card__button">
+                    <a class="enlace" href="#">Saber más</a>
+                </div>
+            </div>
+            <div class="card__perfil">
+                <div class="card__nombre">
+                    <h2>Redacción de artículos científicos</h2>
+                    <p>Servicio 02</p>
+                </div>
+                <hr>
+                <div class="card__descripcion">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolores perferendis rem ipsam
+                        veniam reiciendis eveniet optio eum velit, dignissimos asperiores fugit molestias ipsum
+                        temporibus
+                        rerum hic iste nulla vitae?</p>
+                </div>
+                <hr>
+                <div class="card__button">
+                    <a class="enlace" href="#">Saber más</a>
+                </div>
+            </div>
+            <div class="card__perfil">
+                <div class="card__nombre">
+                    <h2>Corrección de estilo para tesis </h2>
+                    <p>Servicio 03</p>
+                </div>
+                <hr>
+                <div class="card__descripcion">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolores perferendis rem ipsam
+                        veniam reiciendis eveniet optio eum velit, dignissimos asperiores fugit molestias ipsum
+                        temporibus
+                        rerum hic iste nulla vitae?</p>
+                </div>
+                <hr>
+                <div class="card__button">
+                    <a class="enlace" href="#">Saber más</a>
+                </div>
+            </div>
+        </section>
+        <br>
+        <section class="card">
+            <div class="card__perfil">
+                <div class="card__nombre">
+                    <h2>Redacción de tesis de pregrado y posgrado</h2>
+                    <p>Servicio 01</p>
+                </div>
+                <hr>
+                <div class="card__descripcion">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolores perferendis rem ipsam
+                        veniam reiciendis eveniet optio eum velit, dignissimos asperiores fugit molestias ipsum
+                        temporibus
+                        rerum hic iste nulla vitae?</p>
+                </div>
+                <hr>
+                <div class="card__button">
+                    <a class="enlace" href="#">Saber más</a>
+                </div>
+            </div>
+            <div class="card__perfil">
+                <div class="card__nombre">
+                    <h2>Redacción de artículos científicos</h2>
+                    <p>Servicio 02</p>
+                </div>
+                <hr>
+                <div class="card__descripcion">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolores perferendis rem ipsam
+                        veniam reiciendis eveniet optio eum velit, dignissimos asperiores fugit molestias ipsum
+                        temporibus
+                        rerum hic iste nulla vitae?</p>
+                </div>
+                <hr>
+                <div class="card__button">
+                    <a class="enlace" href="#">Saber más</a>
+                </div>
+            </div>
+            <div class="card__perfil">
+                <div class="card__nombre">
+                    <h2>Corrección de estilo para tesis </h2>
+                    <p>Servicio 03</p>
+                </div>
+                <hr>
+                <div class="card__descripcion">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolores perferendis rem ipsam
+                        veniam reiciendis eveniet optio eum velit, dignissimos asperiores fugit molestias ipsum
+                        temporibus
+                        rerum hic iste nulla vitae?</p>
+                </div>
+                <hr>
+                <div class="card__button">
+                    <a class="enlace" href="#">Saber más</a>
+                </div>
+            </div>
+        </section><br><br>
+        <div class="contenedor" id="contacto">
+            <h2 class="titulo">CONTÁCTENOS</h2>
+        </div>
+        <section class="contacto">
+            <div class="contenedor2">
+                <div class="wrapper animated bounceInLeft">
+                    <div class="info-empresa">
+                        <h3>UBICANOS </h3>
+                        <ul class="servicios">
+                            <li><i class="fa fa-map-marker"></i> Urb. San Pedro #xxx</li><br>
+                            <li><i class="fa fa-mobile"></i> 555 555 000</li><br>
+                            <li><i class="fa fa-envelope"></i> info@grupovalenzuela.com</li><br>
+                        </ul>
+                    </div>
+                    <div class="contactofrm">
+                        <h3>ENVIAR CORREO</h3>
+                        <form class="formulario">
+                            <p>
+                                <label><br></label>
+                                <input type="text" placeholder="Nombres y Apellidos" name="nombres" required>
+                            </p>
+                            <p>
+                                <label><br></label>
+                                <select>             
+                                    <option value="1">Elige un Servicio</option>
+                                    <option value="2">Redacción de tesis de pregrado y posgrado</option>
+                                    <option value="3">Redacción de artículos científicos</option>
+                                    <option value="4">Corrección de estilo para tesis y artículos científicos</option>
+                                    <option value="5">Otros</option>
+                                </select>
+                            </p>
+                            <p>
+                                <label><br></label>
+                                <input type="email" placeholder="Correo Electrónico" name="correo" required>
+                            </p>
+                            <p>
+                                <label><br></label>
+                                <input type="text" placeholder="Teléfono o Celular" name="telefono" required>
+                            </p>
+                            <p class="full">
+                                <label><br></label>
+                                <textarea name="mensaje" placeholder="Escribenos tu consulta" required></textarea>
+                            </p>
+                            <p>
+                                <button class="boton-enviar">Enviar</button>
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="contenedor footer-content">
+            <div class="contact-us">
+                <h3 class="brand">GRUPO VALENZUELA</h3>
+                <p>CONSULTORÍA INTEGRAL</p><br>
+            </div>
+            <div class="social-media">
+                <a href="https://es-la.facebook.com/" target="_blank" class="social-media-icon">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+                <a href="https://twitter.com/?lang=es" target="_blank" class="social-media-icon">
+                    <i class='bx bxl-twitter'></i>
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=51957190633&text=Hola!%20en%20que%20podemos%20ayudarte,%20escribenos%20tu%20consulta%20"
+                    target="_blank" class="social-media-icon">
+                    <i class='bx bxl-whatsapp'></i>
+                </a>
+            </div>
+        </div>
+        <div class="line"></div>
+        <h2 class="titulo-final">Todos los derechos reservados &copy; 2023</h2>
+        <p class="titulo-final diseg"><a href="#" rel="noopener noreferrer"> Designed by Alex Solano</a></p>
+    </footer>
+</body>
+
+</html>
